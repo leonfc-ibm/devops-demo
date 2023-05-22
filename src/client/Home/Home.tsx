@@ -15,8 +15,8 @@ const Home = () => {
 
     return (
         <div className="home">
-            <div className="header">Hello IBM!</div>
-            <div className="body">Let's get started</div>
+            <div className="header">Hola Clase!!"</div>
+            <div className="body">Vamos Empezando!</div>
 
             <button 
                 onClick={getMessage}
