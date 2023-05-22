@@ -20,7 +20,7 @@ app.get('/api/health', (req, res) => {
 app.get('/api/message', (req, res) => {
     console.log('Hit /api/message');
     const d = new Date().toLocaleString();
-    res.send(`Hello from the server, It is ${d}`);
+    res.send(`Hola desde el server, IP:  ${d}`);
 });
 
 createServer(app);
